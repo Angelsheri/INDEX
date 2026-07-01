@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Stratum Hosting — Deploy faster, iterate quicker, ship with certainty</title>
+    <meta name="description"
+        content="Get high-performance hosting services with built-in security that is easy to use, fairly priced and ready in seconds.">
+    <meta property="og:title" content="Stratum Hosting">
+    <meta property="og:description"
+        content="High-performance hosting with built-in security. Fairly priced. Ready in seconds.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" href="images/logo.PNG">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <script src="js/header.js" data-active="home"></script>
+    <section class="hero">
+        <div class="hero-bg" id="hero-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+            <h1>
+                Deploy faster, iterate quicker, and ship
+                <span class="hero-dynamic-wrap">
+                    with certainty
+                    <span class="dynamic-underline" id="dyn-underline"></span>
+                </span>
+            </h1>
+            <p>
+                Get high-performance hosting services with built-in security that is easy to use, fairly priced and
+                ready in seconds.
+            </p>
+            <div class="mockup-text">
+                <ul class="mockup-points">
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        24-hour refund policy in all regions
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        Rented dedicated hardware
+                    </li>
+                    <li>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        99% UPTIME
+                    </li>
+                </ul>
+            </div>
+            <div style="height: 30px;"></div>
+            <div class="cta">
+                <a href="/pricing" class="btn cssbuttons-io-button">
+                    <span>Launch Now -&gt;</span>
+                </a>
+                <a href="#features" class="btn cssbuttons-io-button">
+                    <span>Learn More</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PC Mockup Showcase -->
+    <section class="mockup-section">
+        <div class="mockup-text">
+            <h2 class="mockup-heading">
+                Powerful hosting without the complexity.
+            </h2>
+            <p class="mockup-sub">Monitor live metrics &amp; redeploy in one click. Also manage every service from a
+                singular personalized panel.</p>
+            <ul class="mockup-points">
+                <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Real-time CPU, RAM &amp; bandwidth graphs
+                </li>
+                <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Quick seamless deploys, rollbacks &amp; restarts
+                </li>
+                <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Build with a full REST API and real-time webhooks
+                </li>
+            </ul>
+        </div>
+        <div class="mockup-wrap">
+            <div class="mockup-devices">
+                <img src="images/web-mockup.png" alt="Stratum Hosting dashboard on laptop"
+                    class="mockup-img mockup-laptop" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="services-section" id="services">
+        <div class="services-inner">
+            <div class="services-header">
+                <h2 class="services-title anim-underline">Our Services</h2>
+                <p class="services-subtitle">A focused set of hosting services built to run the things you actually
+                    ship.</p>
+            </div>
+            <div class="services-grid">
+
+                <!-- Service 1: Discord Bot Hosting -->
+                <div class="card service-card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/nsbhixpp.json" trigger="hover" stroke="bold"
+                                colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">Discord Bot Hosting</h3>
+                        <a class="card-link" href="/discord" aria-label="Go to Discord Bot Hosting">
+                            <lord-icon src="https://cdn.lordicon.com/hmqxevgf.json" trigger="hover" stroke="bold"
+                                colors="primary:#121331,secondary:#286581" style="width:22px;height:22px">
+                            </lord-icon>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Keep your bot online around the clock with automatic restarts, instant
+                            scaling, and zero-downtime deploys.</p>
+                    </div>
+                </div>
+
+                <!-- Service 2: Telegram Bot Hosting -->
+                <div class="card service-card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/kxnplube.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">Telegram Bot Hosting</h3>
+                        <a class="card-link" href="/telegram" aria-label="Go to Telegram Bot Hosting">
+                            <lord-icon src="https://cdn.lordicon.com/hmqxevgf.json" trigger="hover" stroke="bold"
+                                colors="primary:#121331,secondary:#286581" style="width:22px;height:22px">
+                            </lord-icon>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Run polling or webhook based bots on free HTTPS endpoints with the same
+                            low-latency network as everything else on Stratum.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3: Game Server Hosting -->
+                <div class="card service-card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/hcdqguwh.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">Game Server Hosting</h3>
+                        <a class="card-link" href="/game-server" aria-label="Go to Game Server Hosting">
+                            <lord-icon src="https://cdn.lordicon.com/hmqxevgf.json" trigger="hover" stroke="bold"
+                                colors="primary:#121331,secondary:#286581" style="width:22px;height:22px">
+                            </lord-icon>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Dedicated CPU and NVMe storage keep tick rates stable, with one-click
+                            restarts and persistent world saves.</p>
+                    </div>
+                </div>
+
+                <!-- Service 4: Static Web Hosting -->
+                <div class="card service-card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/rpviwvwn.json" trigger="hover" stroke="bold"
+                                colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">Static Web Hosting</h3>
+                        <a class="card-link" href="/static-web" aria-label="Go to Static Web Hosting">
+                            <lord-icon src="https://cdn.lordicon.com/hmqxevgf.json" trigger="hover" stroke="bold"
+                                colors="primary:#121331,secondary:#286581" style="width:22px;height:22px">
+                            </lord-icon>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Ship sites straight from your repository with global delivery, free HTTPS,
+                            and instant cache invalidation.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Framework Grid Section -->
+    <section class="framework-section" id="frameworks">
+        <div class="framework-inner">
+            <h2 class="framework-title">Reliably deploy on Stratum<br><span
+                    class="framework-title-line anim-underline">with any framework</span></h2>
+
+            <div class="framework-carousel">
+                <button class="framework-nav framework-nav-prev" type="button" aria-label="Previous frameworks">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6" />
+                    </svg>
+                </button>
+
+                <div class="framework-track-wrap">
+                    <div class="framework-track" id="framework-track">
+
+                        <!-- Page 1 -->
+                        <div class="framework-page">
+                            <div class="framework-icon"><img src="images/nodejs.svg" alt="Node.js"
+                                    loading="lazy"><span>Node.js</span></div>
+                            <div class="framework-icon"><img src="images/typescript.svg" alt="TypeScript"
+                                    loading="lazy"><span>TypeScript</span></div>
+                            <div class="framework-icon"><img src="images/javascript.svg" alt="JavaScript"
+                                    loading="lazy"><span>JavaScript</span></div>
+                            <div class="framework-icon"><img src="images/python.svg" alt="Python"
+                                    loading="lazy"><span>Python</span></div>
+                            <div class="framework-icon"><img src="images/bun.svg" alt="Bun"
+                                    loading="lazy"><span>Bun</span></div>
+                        </div>
+
+                        <!-- Page 2 -->
+                        <div class="framework-page">
+                            <div class="framework-icon"><img src="images/deno.svg" alt="Deno"
+                                    loading="lazy"><span>Deno</span></div>
+                            <div class="framework-icon"><img src="images/java.svg" alt="Java"
+                                    loading="lazy"><span>Java</span></div>
+                            <div class="framework-icon"><img src="images/csharp.png" alt="C#"
+                                    loading="lazy"><span>C#</span></div>
+                            <div class="framework-icon"><img src="images/php.svg" alt="PHP"
+                                    loading="lazy"><span>PHP</span></div>
+                            <div class="framework-icon"><img src="images/ruby.svg" alt="Ruby"
+                                    loading="lazy"><span>Ruby</span></div>
+                        </div>
+
+                        <!-- Page 3 -->
+                        <div class="framework-page">
+                            <div class="framework-icon"><img src="images/html.svg" alt="HTML"
+                                    loading="lazy"><span>HTML</span></div>
+                            <div class="framework-icon"><img src="images/css.svg" alt="CSS"
+                                    loading="lazy"><span>CSS</span></div>
+                            <div class="framework-icon"><img src="images/react.svg" alt="React"
+                                    loading="lazy"><span>React</span></div>
+                            <div class="framework-icon"><img src="images/nextjs.svg" alt="Next.js"
+                                    loading="lazy"><span>Next.js</span></div>
+                            <div class="framework-icon"><img src="images/vuejs.svg" alt="Vue"
+                                    loading="lazy"><span>Vue</span></div>
+                        </div>
+
+                        <!-- Page 4 -->
+                        <div class="framework-page">
+                            <div class="framework-icon"><img src="images/svelte.svg" alt="Svelte"
+                                    loading="lazy"><span>Svelte</span></div>
+                            <div class="framework-icon"><img src="images/astro.svg" alt="Astro"
+                                    loading="lazy"><span>Astro</span></div>
+                            <div class="framework-icon"><img src="images/docker.svg" alt="Docker"
+                                    loading="lazy"><span>Docker</span></div>
+                            <div class="framework-icon"><img src="images/go.svg" alt="Go" loading="lazy"><span>Go</span>
+                            </div>
+                            <div class="framework-icon"><img src="images/rust.svg" alt="Rust"
+                                    loading="lazy"><span>Rust</span></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="framework-nav framework-nav-next" type="button" aria-label="Next frameworks">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="framework-pagination" id="framework-pagination" role="tablist"
+                aria-label="Framework page selector"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="features-inner">
+            <div class="features-header">
+                <h2 class="features-title anim-underline">Features</h2>
+                <p class="features-subtitle">Every plan ships with the full stack, with no add-ons and no surprises.</p>
+            </div>
+            <div class="features-grid">
+
+                <!-- Card 1: Instant Deployment -->
+                <div class="card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/warimioc.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">Instant Deployment</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Deploy your bot or application in seconds. Connect your repository, set
+                            your environment variables, and push. Stratum handles the rest automatically.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: High Performance Hardware -->
+                <div class="card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/fwkrbvja.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">High Performance Hardware</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Dedicated NVMe SSDs and AMD EPYC processors on every plan. Guaranteed CPU
+                            allocation with no noisy neighbors stealing your resources during peak load.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: 99.9% Uptime Guarantee -->
+                <div class="card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/jezazvlx.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">99.9% Uptime Guarantee</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Every plan is backed by a contractual SLA. Infrastructure is redundant at
+                            every layer, including power, networking, and compute, so your services stay online even
+                            when hardware fails.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: DDoS Protection -->
+                <div class="card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/mhridhuu.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">DDoS Protection</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Enterprise-grade DDoS mitigation included on every plan at no extra cost.
+                            Network scrubbing centers absorb and filter malicious traffic before it reaches your
+                            instance.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5: GitHub Integration -->
+                <div class="card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/jjxzcivr.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">GitHub Integration</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Connect your GitHub repositories directly to Stratum. Push to deploy. Every
+                            commit triggers an automatic build and rolls out to your live instance without any manual
+                            steps.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6: AI Assistant -->
+                <div class="card">
+                    <span class="card-node"></span>
+                    <div class="card-row">
+                        <div class="card-icon">
+                            <lord-icon src="https://cdn.lordicon.com/okgbpdra.json" trigger="loop" delay="2000"
+                                stroke="bold" colors="primary:#286581,secondary:#286581" style="width:32px;height:32px">
+                            </lord-icon>
+                        </div>
+                        <h3 class="card-title">AI Assistant</h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-desc">Ask questions, diagnose issues, and optimize your infrastructure using a
+                            built-in AI assistant trained on your deployment data, logs, and configuration history.</p>
+                    </div>
+                </div>
+
+            </div>
+            <p class="features-scroll-hint">Swipe to see more &rarr;</p>
+        </div>
+    </section>
+
+    <!-- Why Stratum? Section -->
+    <section class="why-section" id="why-stratum">
+        <div class="why-inner">
+            <div class="why-header">
+                <h2 class="why-title anim-underline">Why Stratum?</h2>
+                <p class="why-subtitle">There are a lot of hosting providers out there. Here is what sets Stratum apart.
+                </p>
+            </div>
+            <div class="why-grid">
+                <div class="why-item card">
+                    <div class="card-row">
+                        <div class="why-item-icon">
+                            <lord-icon src="https://cdn.lordicon.com/xqdfobxg.json" trigger="hover" stroke="bold"
+                                colors="primary:#286581,secondary:#286581">
+                            </lord-icon>
+                        </div>
+                        <h3 class="why-item-title">Performance that holds up</h3>
+                    </div>
+                    <p class="why-item-desc">Stratum runs on dedicated AMD EPYC processors and NVMe storage with
+                        guaranteed CPU allocation on every plan. There are no shared pools, no throttling, and no
+                        surprises under load. Your resources are yours.</p>
+                </div>
+                <div class="why-item card">
+                    <div class="card-row">
+                        <div class="why-item-icon">
+                            <lord-icon src="https://cdn.lordicon.com/wjdlpfml.json" trigger="hover" stroke="bold"
+                                colors="primary:#286581,secondary:#286581">
+                            </lord-icon>
+                        </div>
+                        <h3 class="why-item-title">Reliability you can count on</h3>
+                    </div>
+                    <p class="why-item-desc">A 99.9% uptime SLA is not just a number we print on a marketing page. It is
+                        a contractual commitment backed by redundant infrastructure, automatic failover, and account
+                        credits if we ever fall short.</p>
+                </div>
+                <div class="why-item card">
+                    <div class="card-row">
+                        <div class="why-item-icon">
+                            <lord-icon src="https://cdn.lordicon.com/bsdkzyjd.json" trigger="hover" stroke="bold"
+                                colors="primary:#286581,secondary:#286581">
+                            </lord-icon>
+                        </div>
+                        <h3 class="why-item-title">Transparent, honest pricing</h3>
+                    </div>
+                    <p class="why-item-desc">Every feature is included in every plan. There are no hidden add-ons, no
+                        surprise overages, and no tiers that gatekeep core functionality. You pay for resources, not for
+                        access to things that should already be standard.</p>
+                </div>
+                <div class="why-item card">
+                    <div class="card-row">
+                        <div class="why-item-icon">
+                            <lord-icon src="https://cdn.lordicon.com/ogjpwrxe.json" trigger="hover"
+                                colors="primary:#286581,secondary:#286581">
+                            </lord-icon>
+                        </div>
+                        <h3 class="why-item-title">Support that actually helps</h3>
+                    </div>
+                    <p class="why-item-desc">Our community and support channels are run by people who understand
+                        infrastructure, not a first-line team reading from a script. If something goes wrong, you can
+                        reach someone who knows what to do about it.</p>
+                </div>
+                <div class="why-item card">
+                    <div class="card-row">
+                        <div class="why-item-icon">
+                            <lord-icon src="https://cdn.lordicon.com/zfemvkpr.json" trigger="hover"
+                                colors="primary:#286581,secondary:#286581">
+                            </lord-icon>
+                        </div>
+                        <h3 class="why-item-title">Built for developers</h3>
+                    </div>
+                    <p class="why-item-desc">From GitHub-connected deployments to a full REST API and real-time
+                        webhooks, Stratum is designed to fit into the way developers actually work. You can automate,
+                        integrate, and extend without hitting a wall.</p>
+                </div>
+                <div class="why-item card">
+                    <div class="card-row">
+                        <div class="why-item-icon">
+                            <lord-icon src="https://cdn.lordicon.com/vjgknpfx.json" trigger="hover" stroke="bold"
+                                colors="primary:#286581,secondary:#286581">
+                            </lord-icon>
+                        </div>
+                        <h3 class="why-item-title">Scales with you</h3>
+                    </div>
+                    <p class="why-item-desc">Whether you are running a small bot or managing a platform with thousands
+                        of users, you can adjust resources instantly without migrating, reconfiguring, or contacting
+                        anyone. Scaling up or down takes seconds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-inner">
+            <div class="about-text">
+                <h2 class="about-title anim-underline">About Us</h2>
+
+                <p class="about-desc">
+                    Stratum started as a small duo of developers who kept hitting the same wall. Most hosting was either
+                    too expensive, too complex, or just not reliable enough for the kind of projects we were building.
+                </p>
+
+                <p class="about-desc">
+                    We wanted to fix that. So we built a platform that gives developers solid infrastructure without the
+                    enterprise mess, with clear pricing, simple tools, and support from people who actually understand
+                    what you are working on.
+                </p>
+
+                <p class="about-desc">
+                    Our goal is simple. Make hosting fast, honest, and easy to use for anyone building online, whether
+                    that is a Discord bot, an API, a game server, or something completely new. We are a small team, and
+                    we treat every project on our platform like it matters, because it does.
+                </p>
+            </div>
+
+            <div class="about-stats">
+                <div class="about-stat">
+                    <span class="about-stat-number">99.9%</span>
+                    <span class="about-stat-label">Uptime across all plans &amp; services</span>
+                </div>
+
+                <div class="about-stat">
+                    <span class="about-stat-number">3+ </span>
+                    <span class="about-stat-label">Locations to deploy your projects from</span>
+                </div>
+
+                <div class="about-stat">
+                    <span class="about-stat-number">24/7</span>
+                    <span class="about-stat-label">Monitoring and alerts</span>
+                </div>
+
+                <div class="about-stat">
+                    <span class="about-stat-number">25+</span>
+                    <span class="about-stat-label">Languages and frameworks supported</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Layered Security Section -->
+    <section class="security-section" id="security">
+        <div class="security-inner">
+            <div class="security-header">
+                <h2 class="security-title anim-underline">Our Approach to Multi-Layered Security</h2>
+                <p class="security-subtitle">Our security at Stratum is delivered through layered controls that protect
+                    your service at every stage, from secure foundations to rapid response.</p>
+            </div>
+            <div class="security-layers">
+                <div class="security-layer">
+                    <div class="security-layer-num">1</div>
+                    <div class="security-layer-body">
+                        <h3 class="security-layer-title">Foundational Security</h3>
+                        <p class="security-layer-desc">Security is built into our service's by default. We secure your
+                            infrastructure with hardened configurations, protected networks, controlled access, and
+                            resilient backups, creating a secure baseline before any additional controls are applied.
+                        </p>
+                    </div>
+                </div>
+                <div class="security-layer">
+                    <div class="security-layer-num">2</div>
+                    <div class="security-layer-body">
+                        <h3 class="security-layer-title">Preventative Security</h3>
+                        <p class="security-layer-desc">We help you reduce risk by layering additional protections around
+                            your service. These preventative measures reduce attack surface and strengthen defenses as
+                            your environment scales, ensuring that growth does not introduce new vulnerabilities.</p>
+                    </div>
+                </div>
+                <div class="security-layer">
+                    <div class="security-layer-num">3</div>
+                    <div class="security-layer-body">
+                        <h3 class="security-layer-title">Detection and Monitoring</h3>
+                        <p class="security-layer-desc">Our team of AI experts provide continuous monitoring to identify
+                            threats early. We analyse activity across your service and alert you to potential issues
+                            before they impact performance, availability, or data.</p>
+                    </div>
+                </div>
+                <div class="security-layer">
+                    <div class="security-layer-num">4</div>
+                    <div class="security-layer-body">
+                        <h3 class="security-layer-title">Response and Recovery</h3>
+                        <p class="security-layer-desc">If an incident occurs, our AI experts act quickly to contain,
+                            investigate, and recover. We support response and restoration to minimize disruption and
+                            improve your overall security posture after every event.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="faq-inner">
+            <div class="faq-header">
+                <h2 class="faq-title anim-underline">Frequently Asked Questions</h2>
+                <p class="faq-subtitle">Everything you need to know about hosting your bots, game servers, and apps on
+                    Stratum.</p>
+            </div>
+            <div class="faq-list">
+
+                <!-- FAQ 1: Discord bot hosting -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I host my Discord bot on Stratum?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. Stratum is built for Discord bots written in Node.js, Python, Java, Go, and more.
+                            Just connect your repository, add your bot token as an environment variable, and deploy.
+                            Your bot stays online 24/7 with automatic restarts on crashes, and you can scale memory and
+                            CPU instantly as your server count grows.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2: Telegram bot hosting -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Does Stratum support Telegram bot hosting?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Telegram bots run great on Stratum using either long polling or webhooks. We provide
+                            free HTTPS endpoints out of the box, so webhook-based bots work without any extra
+                            configuration. Your bot benefits from the same low-latency network and always-on uptime as
+                            every other workload on the service.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3: Game server hosting -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What kinds of game servers can I run?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Stratum hosts popular game servers including Minecraft, Rust, Valheim, and CS2, alongside
+                            custom server builds. Dedicated CPU allocation and NVMe storage keep tick rates stable even
+                            under heavy player load, and built-in DDoS protection shields your server from attacks. You
+                            can open custom ports, mount persistent storage for world saves, and restart with one click.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4: Performance & hardware -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How fast is the hosting hardware?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Every plan runs on AMD EPYC processors with dedicated NVMe SSD storage and ECC-protected
+                            memory that is never shared between tenants. Our network backbone runs at 10 Gbps with
+                            anycast routing to the nearest point of presence, so latency stays low no matter where your
+                            players or users connect from.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5: Uptime -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What uptime can I expect?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Every plan is backed by a contractual 99.9% uptime SLA. Infrastructure is redundant at every
+                            layer, and automatic health checks run every 30 seconds to trigger instant failover to a
+                            standby replica if a node becomes unresponsive. If we ever miss our SLA, credits are applied
+                            to your account automatically.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6: Deployment -->
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How does deployment work?</span>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Connect your GitHub repository and every push triggers an automatic build that compiles,
+                            containerizes, and rolls out to your live instance with zero downtime. Deployment logs
+                            stream live, branch previews are supported, and rollbacks are one click away since your
+                            deployment history maps directly to your Git history.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Join the Community Section -->
+    <section class="community-section">
+        <div class="community-inner">
+            <img src="images/illustrations/Team_spirit-bro.svg" alt="Join the Stratum Hosting community"
+                class="community-image" loading="lazy">
+            <h2 class="community-title anim-underline">Join the Community</h2>
+            <p class="community-desc">Discover what our community has to say about their Stratum experience, or to just
+                ask for some support.</p>
+            <a href="https://discord.gg/" class="btn btn-discord cssbuttons-io-button" target="_blank"
+                rel="noopener noreferrer">
+                <svg class="discord-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                </svg>
+                <span>Join us on Discord</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ── Final CTA Section ─────────────────────────── -->
+    <section class="final-cta-section" id="get-started">
+        <div class="final-cta-inner">
+            <div class="final-cta-card">
+                <!-- Background image -->
+                <div class="final-cta-bg" aria-hidden="true"></div>
+                <!-- Gradient overlay for readability -->
+                <div class="final-cta-overlay" aria-hidden="true"></div>
+                <!-- Content -->
+                <div class="final-cta-body">
+                    <div class="final-cta-badge">
+                        <span class="final-cta-badge-dot"></span>
+
+                    </div>
+                    <h2 class="final-cta-headline">Get started now for<br><span>just $1.99</span>!</h2>
+                    <p class="final-cta-sub">Deploy your first service on Stratum today. No setup fees, and no long-term
+                        commitments. just fast & reliable hosting from the moment you push!</p>
+                    <a href="/pricing" class="btn cssbuttons-io-button">
+                        <span>Get Started for $1.99</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wave-footer-wrap">
+            <svg viewBox="0 0 1440 110" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path
+                    d="M0,68 C180,108 360,38 540,66 C720,94 900,38 1080,62 C1260,86 1350,46 1440,62 L1440,110 L0,110 Z"
+                    fill="#286581" opacity="0.4" />
+                <path
+                    d="M0,78 C200,46 400,102 600,76 C800,50 1000,98 1200,72 C1320,58 1390,82 1440,74 L1440,110 L0,110 Z"
+                    fill="#286581" />
+            </svg>
+        </div>
+
+        <div class="footer-body">
+
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <p class="footer-newsletter-title">Get more updates...</p>
+                <p class="footer-newsletter-desc">Sign up for our newsletter and you'll be the first to find out about
+                    new features.</p>
+                <form class="footer-newsletter-form" id="newsletter-form" novalidate>
+                    <div class="newsletter-input-wrap">
+                        <input type="email" id="newsletter-email" class="newsletter-input" placeholder="your@email.com"
+                            autocomplete="email" aria-label="Email address">
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </div>
+                    <p class="newsletter-feedback" id="newsletter-feedback" aria-live="polite"></p>
+                </form>
+            </div>
+
+            <!-- Nav columns -->
+            <div class="footer-nav">
+                <div class="footer-col">
+                    <p class="footer-col-heading">Product</p>
+                    <a href="index.html#features" class="footer-link">Features</a>
+                    <a href="pricing.html" class="footer-link">Pricing</a>
+                    <a href="index.html#" class="footer-link">Changelog</a>
+                    <a href="index.html#" class="footer-link">Roadmap</a>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-col-heading">Resources</p>
+                    <a href="index.html#docs" class="footer-link">Documentation</a>
+                    <a href="index.html#" class="footer-link">API Reference</a>
+                    <a href="index.html#status" class="footer-link">Status</a>
+                    <a href="index.html#" class="footer-link">Guides</a>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-col-heading">Company</p>
+                    <a href="index.html#" class="footer-link">About</a>
+                    <a href="index.html#contact" class="footer-link">Contact</a>
+                    <a href="index.html#" class="footer-link">Blog</a>
+                    <a href="index.html#" class="footer-link">Careers</a>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-col-heading">Legal</p>
+                    <a href="index.html#" class="footer-link">Privacy Policy</a>
+                    <a href="index.html#" class="footer-link">Terms of Service</a>
+                    <a href="index.html#" class="footer-link">Cookie Policy</a>
+                    <a href="index.html#" class="footer-link">SLA</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span class="footer-text">&copy; Stratum Hosting 2026. All rights reserved.</span>
+            <div class="footer-social">
+                <!-- Discord -->
+                <a href="https://discord.gg/" class="footer-social-link" target="_blank" rel="noopener noreferrer"
+                    aria-label="Discord">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                    </svg>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/" class="footer-social-link" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                    </svg>
+                </a>
+                <!-- Twitter/X -->
+                <a href="https://twitter.com/" class="footer-social-link" target="_blank" rel="noopener noreferrer"
+                    aria-label="Twitter">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/hero.js"></script>
+    <script src="js/rotating-word.js"></script>
+    <script src="js/underline-on-scroll.js"></script>
+    <script src="js/framework-carousel.js"></script>
+    <script src="js/faq-accordion.js"></script>
+    <script src="js/gsap-animations.js"></script>
+    <script src="js/stats-counter.js"></script>
+    <script src="js/newsletter.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
